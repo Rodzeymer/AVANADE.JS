@@ -28,8 +28,43 @@ var lista=["maçã", "pêra", "laranja"];
 
 console.log(lista);
 
-console.log(lista[1]);
+/*console.log(lista[1]);
 
 alert(lista[0]);
 
-//https://web.digitalinnovation.one/course/programacao-para-internet-com-javascript/learning/c2f0215d-8643-45ed-a441-ec1669349bca aos 01:00
+lista.push("uva");
+console.log(lista);
+
+lista.pop();
+
+console.log(lista);
+
+lista.pop();
+
+console.log(lista);
+
+console.log(lista.length)
+
+console.log(lista.reverse());
+
+console.log(lista.toString());
+
+console.log(lista.join("*-*"));
+
+*/
+
+/*var fruta = {nome: "maça", cor: "vermelha"}
+
+console.log(fruta);
+
+console.log(fruta.nome +", "+ fruta.cor);
+*/
+
+var frutas = [{nome: "maça", cor: "vermelha"}, {nome: "uva", cor: "roxa"}]
+
+console.log(frutas);
+
+console.log(frutas[1].nome +", "+ frutas[0].cor);
+
+
+
