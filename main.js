@@ -60,11 +60,36 @@ console.log(fruta);
 console.log(fruta.nome +", "+ fruta.cor);
 */
 
-var frutas = [{nome: "maça", cor: "vermelha"}, {nome: "uva", cor: "roxa"}]
+/*var frutas = [{nome: "maça", cor: "vermelha"}, {nome: "uva", cor: "roxa"}]
 
 console.log(frutas);
 
 console.log(frutas[1].nome +", "+ frutas[0].cor);
 
+*/
+
+/*var idade  = prompt("Qual a sua idade?");
+
+if (idade>=18){
+    alert("Maior de idade");
+} else{
+    alert("Menor de idade");
+}*/
+
+/*var count = 0;
+
+while (count<=5) {
+    console.log(count);
+    count++;
+    
+}*/
+
+/*for (let count = 0; count<=5;count++) {
+    alert(count);
+    
+}*/
+
+var d = new Date();
+alert(d.getMonth());
 
 
